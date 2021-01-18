@@ -14,6 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
+        args: >
+          -Dsonar.organization=fiktivtfelag
+          -Dsonar.projectKey=FiktivtFelag_guide-react-gh-pages  
         # Disabling shallow clone is recommended for improving relevancy of reporting
         fetch-depth: 0
     - name: SonarCloud Scan
