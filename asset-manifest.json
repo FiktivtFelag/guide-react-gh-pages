@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/guide-react-gh-pages/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/guide-react-gh-pages/static/js/main.606e1921.chunk.js",
+    "main.js.map": "/guide-react-gh-pages/static/js/main.606e1921.chunk.js.map",
+    "runtime-main.js": "/guide-react-gh-pages/static/js/runtime-main.d566ed3f.js",
+    "runtime-main.js.map": "/guide-react-gh-pages/static/js/runtime-main.d566ed3f.js.map",
+    "static/js/2.b30fa4ba.chunk.js": "/guide-react-gh-pages/static/js/2.b30fa4ba.chunk.js",
+    "static/js/2.b30fa4ba.chunk.js.map": "/guide-react-gh-pages/static/js/2.b30fa4ba.chunk.js.map",
+    "static/js/3.24b80c0c.chunk.js": "/guide-react-gh-pages/static/js/3.24b80c0c.chunk.js",
+    "static/js/3.24b80c0c.chunk.js.map": "/guide-react-gh-pages/static/js/3.24b80c0c.chunk.js.map",
+    "index.html": "/guide-react-gh-pages/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/guide-react-gh-pages/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.b30fa4ba.chunk.js.LICENSE.txt": "/guide-react-gh-pages/static/js/2.b30fa4ba.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/guide-react-gh-pages/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d566ed3f.js",
+    "static/js/2.b30fa4ba.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.606e1921.chunk.js"
+  ]
+}
