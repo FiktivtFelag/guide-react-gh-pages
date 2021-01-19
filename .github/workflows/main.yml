@@ -34,3 +34,18 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: SonarCloud Scan
+      # You may pin to the exact commit or the version.
+      # uses: SonarSource/sonarcloud-github-action@32ea6119a4bd977dc6307acb6bbbf277152ede95
+      - uses: SonarSource/sonarcloud-github-action@v1.5
+        with:
+          # Additional arguments to the sonarcloud scanner
+          args: >
+            -Dsonar.organization=fiktivtfelag
+            -Dsonar.projectKey=FiktivtFelag_guide-react-gh-pages  
+          # Set the sonar.projectBaseDir analysis property
+          projectBaseDir: .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
